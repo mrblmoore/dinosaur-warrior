@@ -1,0 +1,251 @@
+{
+  "printed_parts": [
+    {
+      "name": "Lower Chassis",
+      "type": "enclosure_bottom",
+      "shape": "open_top_box",
+      "category": "A",
+      "features": [
+        "battery_cradle",
+        "pcb_standoffs",
+        "speaker_grille"
+      ],
+      "material": "PETG",
+      "position": {
+        "x": 0,
+        "y": 45,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "dimensions": {
+        "width_mm": 110,
+        "height_mm": 90,
+        "length_mm": 280,
+        "wall_thickness_mm": 2.5
+      }
+    },
+    {
+      "name": "Upper Torso",
+      "type": "enclosure_top",
+      "shape": "box",
+      "category": "A",
+      "features": [
+        "servo_mounts",
+        "cannon_hatch",
+        "button_cutout"
+      ],
+      "material": "PETG",
+      "position": {
+        "x": -20,
+        "y": 130,
+        "z": 0
+      },
+      "rotation": {
+        "x": 15,
+        "y": 0,
+        "z": 0
+      },
+      "dimensions": {
+        "width_mm": 100,
+        "height_mm": 80,
+        "length_mm": 200,
+        "wall_thickness_mm": 2.5
+      }
+    },
+    {
+      "name": "Mecha Head",
+      "type": "custom",
+      "shape": "box",
+      "category": "A",
+      "features": [
+        "led_eye_sockets",
+        "articulated_jaw"
+      ],
+      "material": "PETG",
+      "position": {
+        "x": -130,
+        "y": 170,
+        "z": 0
+      },
+      "rotation": {
+        "x": 10,
+        "y": 0,
+        "z": 0
+      },
+      "dimensions": {
+        "width_mm": 60,
+        "height_mm": 60,
+        "length_mm": 80,
+        "wall_thickness_mm": 2
+      }
+    },
+    {
+      "name": "Dorsal Scale Button",
+      "type": "custom",
+      "shape": "funnel",
+      "category": "B",
+      "features": [
+        "switch_actuator_pin",
+        "retaining_flange"
+      ],
+      "material": "PETG",
+      "position": {
+        "x": 40,
+        "y": 175,
+        "z": 0
+      },
+      "rotation": {
+        "x": -20,
+        "y": 0,
+        "z": 0
+      },
+      "dimensions": {
+        "width_mm": 15,
+        "height_mm": 25,
+        "length_mm": 20
+      }
+    },
+    {
+      "name": "Left Cannon Barrel",
+      "type": "custom",
+      "shape": "tube",
+      "category": "B",
+      "features": [
+        "spring_catch",
+        "dart_chamber"
+      ],
+      "material": "PETG",
+      "position": {
+        "x": -20,
+        "y": 190,
+        "z": -30
+      },
+      "rotation": {
+        "x": 0,
+        "y": -15,
+        "z": 45
+      },
+      "dimensions": {
+        "width_mm": 22,
+        "height_mm": 22,
+        "length_mm": 90,
+        "inner_diameter_mm": 14,
+        "outer_diameter_mm": 22
+      }
+    },
+    {
+      "name": "Right Cannon Barrel",
+      "type": "custom",
+      "shape": "tube",
+      "category": "B",
+      "features": [
+        "spring_catch",
+        "dart_chamber"
+      ],
+      "material": "PETG",
+      "position": {
+        "x": -20,
+        "y": 190,
+        "z": 30
+      },
+      "rotation": {
+        "x": 0,
+        "y": 15,
+        "z": 45
+      },
+      "dimensions": {
+        "width_mm": 22,
+        "height_mm": 22,
+        "length_mm": 90,
+        "inner_diameter_mm": 14,
+        "outer_diameter_mm": 22
+      }
+    }
+  ],
+  "purchased_components": [
+    {
+      "ref": "18650_Cell",
+      "role": "Power",
+      "visual": "battery_cell",
+      "physical": {
+        "width_mm": 18,
+        "height_mm": 18,
+        "length_mm": 65
+      },
+      "position": {
+        "x": 0,
+        "y": 20,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 90
+      }
+    },
+    {
+      "ref": "Main_PCB",
+      "role": "Controller/Power Mgmt",
+      "visual": "pcb_module",
+      "physical": {
+        "width_mm": 40,
+        "height_mm": 5,
+        "length_mm": 60
+      },
+      "position": {
+        "x": 0,
+        "y": 45,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "ref": "Deploy_Servo",
+      "role": "Actuator",
+      "visual": "servo",
+      "physical": {
+        "width_mm": 12,
+        "height_mm": 29,
+        "length_mm": 23
+      },
+      "position": {
+        "x": 10,
+        "y": 150,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 90,
+        "z": 0
+      }
+    },
+    {
+      "ref": "Trigger_Servo",
+      "role": "Actuator",
+      "visual": "servo",
+      "physical": {
+        "width_mm": 12,
+        "height_mm": 29,
+        "length_mm": 23
+      },
+      "position": {
+        "x": -10,
+        "y": 180,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 90,
+        "z": 0
+      }
+    }
+  ]
+}
